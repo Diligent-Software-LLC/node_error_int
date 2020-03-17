@@ -10,4 +10,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-before_install: gem install bundler -v 2.1
+before_install: gem install bundler
