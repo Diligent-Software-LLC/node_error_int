@@ -4,19 +4,19 @@ A Node type exception interface.
 
 ## Installation
 
-- Refer the library's [installation page](https://docs.diligentsoftware.org/nodeerror/packages).
+- Refer the library's [installation page](https://docs.diligentsoftware.org/node/packages).
 
 ## Documentation
 
-- Refer the interface's [homepage](https://docs.diligentsoftware.org/nodeerror/interface).
+- Refer the interface's [homepage](https://docs.diligentsoftware.org/node/nodeerror/interface).
 
 ## Contributing
 
 ### Donate
 
 Donations support continuous improvement and maintenance. The aim is a reliable,
-integrable, and endurable NodeError library. Make a donation at the 
-project's collective page: https://opencollective.com/nodeerror. 
+integrable, and endurable Node library. Make a donation at the 
+project's collective page: https://opencollective.com/node. 
 One-time and recurring donations are available at $1, $2, $4, $8, and $16. 
 Greatly appreciated.
 
