@@ -10,5 +10,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-before_install: gem install bundler -v 2.1.2
-install: gem install node_error_int --version "0.1.0" --source "https://rubygems.pkg.github.com/diligent-software-llc"
+before_install: gem install bundler -v 2.1
