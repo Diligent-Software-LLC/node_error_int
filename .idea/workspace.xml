@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="033f89ee-f73e-44d9-82af-5b0d47f235af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,12 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZEOfdkFaRlAGgUPWs6vtpxP1rj" />
@@ -60,6 +65,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mv artifacts node_error_int-0.1.0.gem" />
+      <command value="mkdir artifacts" />
+      <command value="mv node_error_int-0.1.0.gem artifacts" />
+    </option>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.NodeErrorIntTest">
     <configuration name="NodeErrorIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -138,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584400890257</updated>
-      <workItem from="1584400891701" duration="12032000" />
+      <workItem from="1584400891701" duration="12826000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository, Setup&#10;&#10;Local, remote connection setup. Setup complete.">
       <created>1584402590816</created>
@@ -161,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584455706886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Edited Links&#10;&#10;README links were outdated.">
+      <created>1584456083760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584456083760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Node Board NodeError: 0.1.0 #{ Deploy Preparation} " />
@@ -186,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized Repository, Setup&#10;&#10;Local, remote connection setup. Setup complete." />
     <MESSAGE value="In Progress complete&#10;&#10;All tests pass, all tasks complete." />
-    <option name="LAST_COMMIT_MESSAGE" value="In Progress complete&#10;&#10;All tests pass, all tasks complete." />
+    <MESSAGE value="Edited Links&#10;&#10;README links were outdated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Links&#10;&#10;README links were outdated." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -194,30 +214,30 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="431" y="176" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1584400981571" />
-    <state x="414" y="113" key="CommitChangelistDialog2" timestamp="1584455706614">
+    <state x="414" y="113" key="CommitChangelistDialog2" timestamp="1584456083496">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="414" y="113" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584455706614" />
-    <state width="1504" height="269" key="GridCell.Tab.0.bottom" timestamp="1584455058501">
+    <state x="414" y="113" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584456083496" />
+    <state width="1504" height="269" key="GridCell.Tab.0.bottom" timestamp="1584456765631">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1504" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584455058501" />
-    <state width="1504" height="269" key="GridCell.Tab.0.center" timestamp="1584455058500">
+    <state width="1504" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584456765631" />
+    <state width="1504" height="269" key="GridCell.Tab.0.center" timestamp="1584456765631">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1504" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584455058500" />
-    <state width="1504" height="269" key="GridCell.Tab.0.left" timestamp="1584455058499">
+    <state width="1504" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584456765631" />
+    <state width="1504" height="269" key="GridCell.Tab.0.left" timestamp="1584456765629">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1504" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584455058499" />
-    <state width="1504" height="269" key="GridCell.Tab.0.right" timestamp="1584455058501">
+    <state width="1504" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584456765629" />
+    <state width="1504" height="269" key="GridCell.Tab.0.right" timestamp="1584456765631">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1504" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584455058501" />
-    <state x="431" y="251" key="Vcs.Push.Dialog.v2" timestamp="1584402609924">
+    <state width="1504" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584456765631" />
+    <state x="431" y="251" key="Vcs.Push.Dialog.v2" timestamp="1584456670203">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="431" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584402609924" />
+    <state x="431" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584456670203" />
     <state x="620" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584448783989">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -226,6 +246,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="423" y="236" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1584401382037" />
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup" timestamp="1584456762113">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584456762113" />
     <state x="496" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1584401890106">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
