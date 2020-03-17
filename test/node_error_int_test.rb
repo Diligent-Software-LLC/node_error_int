@@ -28,6 +28,34 @@ class NodeErrorIntTest < Minitest::Test
   # @abstract
   # Set fixtures.
   def setup()
+    @plain = NodeErrorInt.new()
+  end
+
+  # test_pub_m_dec().
+  # @abstract
+  # The three public methods were declared.
+  def test_pub_m_dec()
+
+    assert_respond_to(NodeErrorInt, 'new')
+    assert_respond_to(@plain, 'message')
+    assert_respond_to(@plain, 'node?')
+
+  end
+
+  # test_priv_m_dec().
+  # @abstract
+  # The private method message setter was declared.
+  def test_priv_m_dec()
+    assert_includes(@plain.private_methods(all: false), :message=)
+  end
+
+  # test_dm_def().
+  # @abstract
+  # The overriding DEFAULT_MESSAGE was defined.
+  def test_dm_def()
+    expected_default = 'The argument is not a Node instance.'
+    refute_nil(NodeErrorInt::DEFAULT_MESSAGE)
+    assert_equal(expected_default, NodeErrorInt::DEFAULT_MESSAGE)
   end
 
   # teardown().
