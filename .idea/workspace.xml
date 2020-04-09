@@ -39,18 +39,8 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="033f89ee-f73e-44d9-82af-5b0d47f235af" name="Default Changelist" comment="Fixed Bug">
-      <change beforePath="$PROJECT_DIR$/.idea/node_error_int.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node_error_int.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_error_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_error_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_error_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_error_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_error_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_error_int.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_error_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_error_int_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    <list default="true" id="033f89ee-f73e-44d9-82af-5b0d47f235af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +48,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="294" />
+    <option name="myElementSize" value="324" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -172,7 +162,7 @@
       <workItem from="1584400891701" duration="12826000" />
       <workItem from="1584457809219" duration="3265000" />
       <workItem from="1584461916260" duration="28000" />
-      <workItem from="1586453912867" duration="3578000" />
+      <workItem from="1586453912867" duration="4349000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository, Setup&#10;&#10;Local, remote connection setup. Setup complete.">
       <created>1584402590816</created>
@@ -230,10 +220,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584459036491</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Setup, Development Complete&#10;&#10;Added YARDocumentation. Removed the node?(node = nil) method. Added one file assertion. Edited tests file format. Fixed 'require' statements. Added the GNU General Public License, Version 3. Rewrote Gem Specification. Edited README.md format. Fixed Installation and Documentation links. Added a .yardopts file.">
+      <created>1586460626768</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586460626769</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Error Component: Interface #Development " />
+        <option name="defaultSearch" value="project: Node Subsystem: Error Component: Interface #{Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -260,7 +257,8 @@
     <MESSAGE value="Edited Links&#10;&#10;README links were outdated." />
     <MESSAGE value="Trying travis config" />
     <MESSAGE value="travis config restored." />
-    <option name="LAST_COMMIT_MESSAGE" value="travis config restored." />
+    <MESSAGE value="Setup, Development Complete&#10;&#10;Added YARDocumentation. Removed the node?(node = nil) method. Added one file assertion. Edited tests file format. Fixed 'require' statements. Added the GNU General Public License, Version 3. Rewrote Gem Specification. Edited README.md format. Fixed Installation and Documentation links. Added a .yardopts file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup, Development Complete&#10;&#10;Added YARDocumentation. Removed the node?(node = nil) method. Added one file assertion. Edited tests file format. Fixed 'require' statements. Added the GNU General Public License, Version 3. Rewrote Gem Specification. Edited README.md format. Fixed Installation and Documentation links. Added a .yardopts file." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -268,10 +266,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="431" y="176" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1584400981571" />
-    <state x="414" y="113" key="CommitChangelistDialog2" timestamp="1584461808150">
+    <state x="74" y="89" width="1518" height="850" key="CommitChangelistDialog2" timestamp="1586460626095">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="414" y="113" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584461808150" />
+    <state x="74" y="89" width="1518" height="850" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586460626095" />
     <state width="1569" height="269" key="GridCell.Tab.0.bottom" timestamp="1586457500992">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
