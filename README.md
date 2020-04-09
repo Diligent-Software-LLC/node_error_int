@@ -1,14 +1,17 @@
 # node_error_int [![Gem Version](https://badge.fury.io/rb/node_error_int.svg)](https://badge.fury.io/rb/node_error_int) ![Gem](https://img.shields.io/gem/dt/node_error_int) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/node_error_int.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/node_error_int)
 
-A Node type exception interface.
+A Node exception class interface.
 
 ## Installation
 
-- Refer the library's [installation page](https://docs.diligentsoftware.org/node/packages).
+- Refer the Interface's 
+[Packages](https://docs.diligentsoftware.org/node-1/error/packages/interface) 
+page.
 
 ## Documentation
 
-- Refer the interface's [homepage](https://docs.diligentsoftware.org/node/nodeerror/interface).
+- Refer the Interface's 
+[homepage](https://docs.diligentsoftware.org/node-1/error/interface).
 
 ## Contributing
 
@@ -22,8 +25,8 @@ Greatly appreciated.
 
 ### Report Bugs
 
-Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/node_error_int/issues/1).
+- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/node_error_int/issues/1).
 
 ### Fix Bugs
 
-Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node_error_int/issues/2).
+- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node_error_int/issues/2).

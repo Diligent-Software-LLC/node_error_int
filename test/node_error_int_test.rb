@@ -1,68 +1,72 @@
-require 'test_helper'
+require_relative 'test_helper'
 
 # NodeErrorIntTest.
-# @abstract
-# Tests the NodeErrorInt class.
+# @class_description
+#   Tests the NodeError class interface.
 class NodeErrorIntTest < Minitest::Test
 
-  # test_version_declared().
-  # @abstract
-  # The version was declared.
-  def test_version_declared()
-    refute_nil(::NodeErrorInt::VERSION)
-  end
+  # Constants.
+  CLASS = NodeErrorInt
 
   # test_conf_doc_f_ex().
-  # @abstract
-  # The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, and 
-  # README.md files exist.
+  # @description
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, .yardopts, and
+  #   README.md files exist.
   def test_conf_doc_f_ex()
+
     assert_path_exists('.travis.yml')
     assert_path_exists('CODE_OF_CONDUCT.md')
     assert_path_exists('Gemfile')
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
+    assert_path_exists('.yardopts')
+
+  end
+
+  # test_version_declared().
+  # @description
+  #   The version was declared.
+  def test_version_declared()
+    refute_nil(CLASS::VERSION)
   end
 
   # setup().
-  # @abstract
-  # Set fixtures.
+  # @description
+  #   Set fixtures.
   def setup()
-    @plain = NodeErrorInt.new()
+    @plain = CLASS.new()
   end
 
   # test_pub_m_dec().
-  # @abstract
-  # The three public methods were declared.
+  # @description
+  #   The two public methods were declared.
   def test_pub_m_dec()
-
-    assert_respond_to(NodeErrorInt, 'new')
+    assert_respond_to(CLASS, 'new')
     assert_respond_to(@plain, 'message')
-    assert_respond_to(@plain, 'node?')
-
   end
 
   # test_priv_m_dec().
-  # @abstract
-  # The private method message setter was declared.
+  # @description
+  #   The private method message setter was declared.
   def test_priv_m_dec()
     assert_includes(@plain.private_methods(all: false), :message=)
   end
 
   # test_dm_def().
-  # @abstract
-  # The overriding DEFAULT_MESSAGE was defined.
+  # @description
+  #   DEFAULT_MESSAGE was defined.
   def test_dm_def()
+
     expected_default = 'The argument is not a Node instance.'
-    refute_nil(NodeErrorInt::DEFAULT_MESSAGE)
-    assert_equal(expected_default, NodeErrorInt::DEFAULT_MESSAGE)
+    refute_nil(CLASS::DEFAULT_MESSAGE)
+    assert_equal(expected_default, CLASS::DEFAULT_MESSAGE)
+
   end
 
   # teardown().
-  # @abstract
-  # Cleanup.
+  # @description
+  #   Cleanup.
   def teardown()
   end
 
 end
-
