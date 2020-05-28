@@ -1,5 +1,23 @@
 # Changelog
 
+## v2.0.0, 2020-05-28
+
+### Added
+
+- Test coverage.
+- Added data_structure_error_int development dependency.
+
+### Edited
+
+- Updated source documentation.
+- Updated Gem Specification email, summary, description, and changelog_uri.
+- Rewrote README.md.
+- 'require'd data_structure_error_int.
+- Subclassed DataStructureErrorInt. Previously subclassed DataStructureError.
+- Deleted data_structure_error_library dependency.
+
+### Fixed
+
 ## v1.0.0, 2020-04-09
 
 ### Added
