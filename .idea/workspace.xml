@@ -87,7 +87,11 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="033f89ee-f73e-44d9-82af-5b0d47f235af" name="Default Changelist" comment="" />
+    <list default="true" id="033f89ee-f73e-44d9-82af-5b0d47f235af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_error_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_error_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_error_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_error_int/version.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +230,7 @@
       <workItem from="1584457809219" duration="3265000" />
       <workItem from="1584461916260" duration="28000" />
       <workItem from="1586453912867" duration="7377000" />
-      <workItem from="1590672574793" duration="4142000" />
+      <workItem from="1590672574793" duration="4446000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository, Setup&#10;&#10;Local, remote connection setup. Setup complete.">
       <created>1584402590816</created>
@@ -347,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590679747456</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Prepare Deployment&#10;&#10;Testing dependency bug.">
+      <created>1590679888026</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590679888026</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Node Subsystem: Error Component: Interface State: {Prepare Deployment} Sprints: 10" />
@@ -382,7 +393,8 @@
     <MESSAGE value="Development Complete&#10;&#10;'require'd data_structure_error_int. Subclassed DataStructureErrorInt. Added test coverage. Deleted data_structure_error_library dependency. Added data_structure_error_int dependency." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated 'before_install'. Testing dependency bug." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated 'before_install'. Testing dependency bug." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Testing dependency bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Testing dependency bug." />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="176" key="#Servers" timestamp="1584400981571">
@@ -393,10 +405,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="569" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586462150524" />
-    <state x="55" y="44" width="1572" height="914" key="CommitChangelistDialog2" timestamp="1590679746634">
+    <state x="55" y="44" width="1572" height="914" key="CommitChangelistDialog2" timestamp="1590679887548">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="55" y="44" width="1572" height="914" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590679746634" />
+    <state x="55" y="44" width="1572" height="914" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590679887548" />
     <state width="1569" height="269" key="GridCell.Tab.0.bottom" timestamp="1590675701910">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -417,10 +429,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="349" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1586462250801" />
-    <state x="431" y="251" key="Vcs.Push.Dialog.v2" timestamp="1590679874306">
+    <state x="431" y="251" key="Vcs.Push.Dialog.v2" timestamp="1590679889821">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="431" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1590679874306" />
+    <state x="431" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1590679889821" />
     <state x="620" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584448783989">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

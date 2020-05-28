@@ -9,7 +9,7 @@ require_relative 'node_error_int/version'
 #   A NodeError library's interface.
 # @attr message [String]
 #   An error message.
-class NodeErrorInt < DataStructureErrorInt
+class NodeErrorInt #< DataStructureErrorInt
 
   # Constants.
   DEFAULT_MESSAGE = 'The argument is not a Node instance.'.freeze()
