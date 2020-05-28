@@ -9,6 +9,6 @@ require "data_structure_error_int"
 #   A NodeError library's interface.
 # @attr message [String]
 #   An error message.
-class NodeErrorInt #< DataStructureErrorInt
+class NodeErrorInt < DataStructureErrorInt
   VERSION = '2.0.0'.freeze()
 end
