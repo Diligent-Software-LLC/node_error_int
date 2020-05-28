@@ -1,16 +1,12 @@
 PATH
   remote: .
   specs:
-    node_error_int (1.0.0)
+    node_error_int (2.0.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    data_structure_error_impl (3.0.0)
     data_structure_error_int (3.0.0)
-    data_structure_error_library (2.0.0)
-      data_structure_error_impl (~> 3)
-      data_structure_error_int (~> 3)
     docile (1.3.2)
     minitest (5.14.1)
     rake (13.0.1)
@@ -24,7 +20,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.1)
-  data_structure_error_library (~> 2)
+  data_structure_error_int (~> 3)
   minitest (~> 5.0)
   node_error_int!
   rake (~> 13.0)
