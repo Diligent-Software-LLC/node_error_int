@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.name                  = "node_error_int"
   spec.version               = NodeErrorInt::VERSION
   spec.authors               = ["Diligent Software LLC"]
-  spec.email                 = ["diligentsoftwarellc@gmail.com"]
-  spec.summary               = %q{A Node exception class interface.}
-  spec.description           = %q{A Node exception class interface. Donations
+  spec.email                 = ["contact@diligentsoftware.org"]
+  spec.summary               = %q{A NodeError library's interface.}
+  spec.description           = %q{A NodeError library's interface. Donations
 support continuous improvement and maintenance. The aim is a reliable,
 integrable, and endurable Node library. Make a donation at the project's
  collective page: https://opencollective.com/node. One-time and
@@ -24,7 +24,8 @@ appreciated.}
   spec.metadata['source_code_uri'] =
       "https://github.com/Diligent-Software-LLC/node_error_int"
   spec.metadata['changelog_uri']   =
-      "https://docs.diligentsoftware.org/node-1/packages/interface#changelog"
+      "https://docs.diligentsoftware.org/node-1/error/" +
+          "packages#interface_changelog"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added
@@ -38,12 +39,9 @@ appreciated.}
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # Development and testing dependencies
-  spec.add_development_dependency 'bundler', '~> 2.1.0'
-  spec.add_development_dependency 'simplecov', '~> 0.17.0'
-  spec.add_development_dependency 'data_structure_error', '~> 1.2.0'
-
-  # Gem specific runtime dependencies
-  spec.add_runtime_dependency 'data_structure_error', '~> 1.2.0'
+  # Development and testing dependencies.
+  spec.add_development_dependency 'bundler', '~> 2.1'
+  spec.add_development_dependency 'simplecov', '~> 0'
+  spec.add_development_dependency 'data_structure_error_library', '~> 2'
 
 end

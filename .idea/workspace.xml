@@ -23,16 +23,64 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="false" />
     <option name="showStatusBarWidget" value="true" />
+    <SELECTED_PROJECT id="project11" />
+    <SELECTED_PROJECT id="project10" />
+    <SELECTED_PROJECT id="project12" />
+    <SELECTED_PROJECT id="project5" />
+    <SELECTED_PROJECT id="project17" />
+    <SELECTED_TYPE id="bt19" />
+    <SELECTED_TYPE id="bt11" />
+    <SELECTED_TYPE id="bt20" />
     <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="project5" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+    <treeState key="selectConfigurations.run">
       <expandedPath>
         <pathElement>
           <option name="myNodeId" value="project5" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
       </expandedPath>
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project5" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="project10" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project5" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="project10" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="project11" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
       <selectedPath>
         <pathElement>
-          <option name="myNodeId" value="project4" />
+          <option name="myNodeId" value="project5" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="project10" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="project17" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
       </selectedPath>
@@ -40,7 +88,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="033f89ee-f73e-44d9-82af-5b0d47f235af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/node_error_int.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node_error_int.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_error_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_error_int.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +107,12 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZEOfdkFaRlAGgUPWs6vtpxP1rj" />
@@ -74,12 +132,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="ytplugin.issueListCompactView" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mv artifacts node_error_int-0.1.0.gem" />
       <command value="mkdir artifacts" />
       <command value="mv node_error_int-0.1.0.gem artifacts" />
+      <command value="gem install data_structure_error_library" />
     </option>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.NodeErrorIntTest">
@@ -149,6 +214,10 @@
     </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SuitableConfigurationIdsCache">
+    <FIRST_MONTH_REVISION values="101c725560f5dc388d412a91b04fb0f4bbc0261b" />
+    <SUITABLE_CONFIGURATIONS_IDS values="bt19;bt11;bt20" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,7 +231,8 @@
       <workItem from="1584400891701" duration="12826000" />
       <workItem from="1584457809219" duration="3265000" />
       <workItem from="1584461916260" duration="28000" />
-      <workItem from="1586453912867" duration="4349000" />
+      <workItem from="1586453912867" duration="7377000" />
+      <workItem from="1590672574793" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository, Setup&#10;&#10;Local, remote connection setup. Setup complete.">
       <created>1584402590816</created>
@@ -227,10 +297,38 @@
       <option name="project" value="LOCAL" />
       <updated>1586460626769</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1586460987587</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586460987587</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1586461090414</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586461090414</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1586461195065</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586461195065</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1586461335952</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586461335952</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Error Component: Interface #{Prepare Deployment} " />
+        <option name="defaultSearch" value="project: Node Subsystem: Error Component: Interface State: {Setup} Sprints: 10" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -258,7 +356,8 @@
     <MESSAGE value="Trying travis config" />
     <MESSAGE value="travis config restored." />
     <MESSAGE value="Setup, Development Complete&#10;&#10;Added YARDocumentation. Removed the node?(node = nil) method. Added one file assertion. Edited tests file format. Fixed 'require' statements. Added the GNU General Public License, Version 3. Rewrote Gem Specification. Edited README.md format. Fixed Installation and Documentation links. Added a .yardopts file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup, Development Complete&#10;&#10;Added YARDocumentation. Removed the node?(node = nil) method. Added one file assertion. Edited tests file format. Fixed 'require' statements. Added the GNU General Public License, Version 3. Rewrote Gem Specification. Edited README.md format. Fixed Installation and Documentation links. Added a .yardopts file." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -266,30 +365,38 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="431" y="176" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1584400981571" />
-    <state x="74" y="89" width="1518" height="850" key="CommitChangelistDialog2" timestamp="1586460626095">
+    <state x="569" y="274" key="#com.intellij.tools.ToolEditorDialog" timestamp="1586462150525">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="74" y="89" width="1518" height="850" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586460626095" />
-    <state width="1569" height="269" key="GridCell.Tab.0.bottom" timestamp="1586457500992">
+    <state x="569" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1586462150524" />
+    <state x="94" y="83" width="1518" height="850" key="CommitChangelistDialog2" timestamp="1590674461947">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1569" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586457500992" />
-    <state width="1569" height="269" key="GridCell.Tab.0.center" timestamp="1586457500992">
+    <state x="94" y="83" width="1518" height="850" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590674461947" />
+    <state width="1569" height="269" key="GridCell.Tab.0.bottom" timestamp="1590674046332">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1569" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586457500992" />
-    <state width="1569" height="269" key="GridCell.Tab.0.left" timestamp="1586457500991">
+    <state width="1569" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590674046332" />
+    <state width="1569" height="269" key="GridCell.Tab.0.center" timestamp="1590674046331">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1569" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586457500991" />
-    <state width="1569" height="269" key="GridCell.Tab.0.right" timestamp="1586457500992">
+    <state width="1569" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1590674046331" />
+    <state width="1569" height="269" key="GridCell.Tab.0.left" timestamp="1590674046331">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1569" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586457500992" />
-    <state x="431" y="251" key="Vcs.Push.Dialog.v2" timestamp="1584459042797">
+    <state width="1569" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1590674046331" />
+    <state width="1569" height="269" key="GridCell.Tab.0.right" timestamp="1590674046331">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="431" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584459042797" />
+    <state width="1569" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590674046331" />
+    <state x="349" y="149" key="SettingsEditor" timestamp="1586462250801">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="349" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1586462250801" />
+    <state x="431" y="251" key="Vcs.Push.Dialog.v2" timestamp="1586463490925">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="431" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1586463490925" />
     <state x="620" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584448783989">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -298,14 +405,14 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="423" y="236" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1586455625151" />
-    <state x="499" y="235" width="670" height="675" key="run.anything.popup" timestamp="1584456762113">
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup" timestamp="1590673959179">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="499" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584456762113" />
-    <state x="496" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1586454137653">
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1590673959179" />
+    <state x="496" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1590674171868">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="496" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1586454137653" />
+    <state x="496" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590674171868" />
     <state x="570" y="354" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586456714730">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

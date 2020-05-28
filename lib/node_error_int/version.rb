@@ -6,9 +6,9 @@ require "data_structure_error"
 # NodeErrorInt.
 # @abstract
 # @class_description
-#   A Node TypeError exception class interface.
+#   A NodeError library's interface.
 # @attr message [String]
 #   An error message.
 class NodeErrorInt < DataStructureError
-  VERSION = '1.0.0'.freeze()
+  VERSION = '2.0.0'.freeze()
 end
